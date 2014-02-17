@@ -35,14 +35,25 @@ header{
 	position: relative;
 	z-index: 1;
 	margin:0 auto;
-	width: 60%;
+	width: 100%;
 	top:48px;
 	min-width:980px;
 }
 .leftCol{
+	padding:5px;
 	position:absolute; 
 	float:left;
 	width:20%
+}
+.leftColNav{ 
+	height:40px;
+	width:98%;
+	border: 1px solid darkgray;
+	
+}
+.leftColNav span{ 
+	padding:5px;
+	
 }
 .toiletRoll{
 	position:relative; 
@@ -87,7 +98,7 @@ header{
 	position:relative;
 	height:200px;
 	width:200px;
-	border:1px solid grey;
+	border:1px solid rgb(177, 177, 177);
 	float: left;
 	margin:5px;
 	box-shadow: 2px 2px 2px 2px rgb(218, 211, 211);
@@ -114,4 +125,8 @@ header{
 	display: inline-block;
 	font-size: 24px;
 	font-weight: bold; 
+}
+.toiletRollButtonDescText{
+font-family: Verdana Regular;
+color: darkgray;
 }
