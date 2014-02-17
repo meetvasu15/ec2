@@ -4,10 +4,12 @@
 	font-family:Helvetica;
 }
 body{ 
-
+padding-bottom:100px;
 }
 footer{ 
+	position:fixed;
 	margin-top:50px;
+	z-index:2;
 	width: 100%; 
 	bottom:0px;
 	background-color:rgb(169, 165, 207);
@@ -36,7 +38,7 @@ header{
 	top:48px;
 }
 .leftCol{
-	position:relative; 
+	position:absolute; 
 	float:left;
 	width:20%
 }
@@ -80,10 +82,35 @@ header{
 	margin-top:1%;
 }
 .toiletRollButton{
-position:relative;
-height:200px;
-width:200px;
-border:1px solid grey;
-float: left;
-margin:5px;
+	position:relative;
+	height:200px;
+	width:200px;
+	border:1px solid grey;
+	float: left;
+	margin:5px;
+	box-shadow: 2px 2px 2px 2px rgb(218, 211, 211);
+	border-radius: 4px;
+	padding:6px;
+	background: -webkit-linear-gradient(left top, rgb(240, 238, 238) , white); /* For Safari */
+	background: -o-linear-gradient(bottom right, rgb(240, 238, 238), white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, rgb(240, 238, 238), white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, rgb(240, 238, 238) , white); /* Standard syntax (must be last) */
+}
+
+.toiletRollButton:hover{
+	cursor:pointer;
+	box-shadow: 4px 4px 2px 2px rgb(218, 211, 211); 
+	background: white; 
+}
+ 
+.webRtcContainer img{ 
+	height:40px;
+	width:40px;
+}
+
+.webRtcLogo {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: cursive;
 }
