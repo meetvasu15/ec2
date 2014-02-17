@@ -62,3 +62,17 @@ header{
 	margin: 0 auto;
 	width: 60%;
 }
+.footerMainContainer a{
+	padding:4px;
+	color:white;
+	font-weight: bold;
+	text-decoration:none;
+	display:inline-block;
+}
+.footerMainContainer a:hover{
+	padding:4px;
+	color:rgb(235, 140, 52);
+	font-weight: bold;
+	text-decoration:none;
+	display:inline-block;
+}
