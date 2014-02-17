@@ -49,7 +49,9 @@ header{
 	margin: 0 auto;
 	width: 60%;
 }
-
+.homeButtonContainer{
+	width:30%;
+}
 .homeButtonContainer a{
 	color:white;
 	text-decoration:none;
